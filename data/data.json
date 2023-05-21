@@ -1,0 +1,18 @@
+{
+  "pages": {
+    "main": {
+      "componentData": [
+        {
+          "type": "EXISTING_COMPONENT",
+          "x": 10,
+          "y": 10,
+          "width": 1600,
+          "height": 1325,
+          "filePath": "/src/components/CMS1600.tsx",
+          "exportName": "default"
+        }
+      ]
+    }
+  },
+  "version": { "major": 0, "minor": 0, "patch": 0 }
+}
