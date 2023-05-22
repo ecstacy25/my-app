@@ -178,7 +178,7 @@ export default function CMS1600(props: CMS1600Props) {
                   className="gap-[50px] self-stretch items-start justify-between flex w-full"
                 >
                   <div className="items-center flex gap-5">
-                    <AvatarImage className="h-[30px] w-[30px]" />
+                    <AvatarImage className="h-[30px] w-[30px] cursor-[pointer]" />
                     <p className="w-[65px] h-5 leading-5 text-xs">
                       Bess Atkins
                     </p>
@@ -192,7 +192,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage1
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="h-5 w-16 leading-5 text-xs">
                       Brett Foster
@@ -207,7 +207,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage2
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[63px] h-5 leading-5 text-xs">
                       Leona Todd
@@ -222,7 +222,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage3
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[51px] h-5 leading-5 text-xs">
                       Ann Ortiz
@@ -237,7 +237,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage4
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[81px] h-5 leading-5 text-xs">
                       Nicholas Black
@@ -252,7 +252,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage5
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[71px] h-5 leading-5 text-xs">
                       Ollie Harmon
@@ -267,7 +267,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage6
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[78px] h-5 leading-5 text-xs">
                       Vincent Reese
@@ -282,7 +282,7 @@ export default function CMS1600(props: CMS1600Props) {
                 >
                   <div className="items-center flex gap-5">
                     <AvatarImage7
-                      className="h-[30px] w-[30px]"
+                      className="h-[30px] w-[30px] cursor-[pointer]"
                      />
                     <p className="w-[76px] h-5 leading-5 text-xs">
                       Ida Robertson
@@ -298,48 +298,48 @@ export default function CMS1600(props: CMS1600Props) {
               className="text-[#6B7A99] gap-[71px] pr-[15px] pl-[15px] self-stretch items-start justify-between flex w-full"
             >
               <div className="items-center flex gap-5">
-                <Icon36 className="h-[30px] w-[30px]" />
+                <Icon36 className="h-[30px] w-[30px] cursor-[pointer]" />
                 <p className="w-[59px] h-5 leading-5 text-xs">
                   Categories
                 </p>
               </div>
               <div className="items-start flex gap-2.5">
                 <Badge type="SQUARE_LARGE_ROUNDED_LIGHT_TYPE" />
-                <Icon43 className="h-[30px] w-[30px]" />
+                <Icon43 className="h-[30px] w-[30px] cursor-[pointer]" />
               </div>
             </div>
             <div
               className="text-[#6B7A99] gap-[104px] pr-[15px] pl-[15px] self-stretch items-start justify-between flex w-full"
             >
               <div className="items-center flex gap-5">
-                <Icon38 className="h-[30px] w-[30px]" />
+                <Icon38 className="h-[30px] w-[30px] cursor-[pointer]" />
                 <p className="w-[26px] h-5 leading-5 text-xs">Tags</p>
               </div>
               <div className="items-start flex gap-2.5">
                 <Badge type="SQUARE_LARGE_ROUNDED_LIGHT_TYPE" />
-                <Icon43 className="h-[30px] w-[30px]" />
+                <Icon43 className="h-[30px] w-[30px] cursor-[pointer]" />
               </div>
             </div>
             <div
               className="text-[#6B7A99] gap-[71px] pr-[15px] pl-[15px] self-stretch items-start justify-between flex w-full"
             >
               <div className="items-center flex gap-5">
-                <Icon40 className="h-[30px] w-[30px]" />
+                <Icon40 className="h-[30px] w-[30px] cursor-[pointer]" />
                 <p className="w-[59px] h-5 leading-5 text-xs">Comments</p>
               </div>
               <div className="items-start flex gap-2.5">
                 <Badge type="SQUARE_LARGE_ROUNDED_LIGHT_TYPE" />
-                <Icon43 className="h-[30px] w-[30px]" />
+                <Icon43 className="h-[30px] w-[30px] cursor-[pointer]" />
               </div>
             </div>
             <div
               className="text-[#6B7A99] gap-[125px] pr-[15px] pl-[15px] self-stretch items-center justify-between flex w-full"
             >
               <div className="items-center flex gap-5">
-                <Icon42 className="h-[30px] w-[30px]" />
+                <Icon42 className="h-[30px] w-[30px] cursor-[pointer]" />
                 <p className="w-[45px] h-5 leading-5 text-xs">Settings</p>
               </div>
-              <Icon43 className="h-[30px] w-[30px]" />
+              <Icon43 className="h-[30px] w-[30px] cursor-[pointer]" />
             </div>
           </div>
         </div>
@@ -362,7 +362,7 @@ export default function CMS1600(props: CMS1600Props) {
                     <p className="w-[34px] h-5 leading-5 text-xs">
                       Pages
                     </p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[57px] mt-[-68.5px] leading-[30px] text-[22px] text-center"
@@ -389,7 +389,7 @@ export default function CMS1600(props: CMS1600Props) {
                     <p className="w-[31px] h-5 leading-5 text-xs">
                       Posts
                     </p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[69px] mt-[-74.5px] leading-[30px] text-[22px] text-center"
@@ -414,7 +414,7 @@ export default function CMS1600(props: CMS1600Props) {
                     className="gap-[58px] text-left self-stretch items-center justify-between flex w-full"
                   >
                     <p className="h-5 w-8 leading-5 text-xs">Users</p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[26px] mt-[-53px] leading-[30px] text-[22px] text-center"
@@ -445,7 +445,7 @@ export default function CMS1600(props: CMS1600Props) {
                     <p className="w-[26px] h-5 leading-5 text-xs">
                       Files
                     </p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[57px] mt-[-68.5px] leading-[30px] text-[22px] text-center"
@@ -472,7 +472,7 @@ export default function CMS1600(props: CMS1600Props) {
                     <p className="w-[59px] h-5 leading-5 text-xs">
                       Categories
                     </p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[26px] mt-[-53px] leading-[30px] text-[22px] text-center"
@@ -499,7 +499,7 @@ export default function CMS1600(props: CMS1600Props) {
                     <p className="w-[59px] h-5 leading-5 text-xs">
                       Comments
                     </p>
-                    <Icon49 className="h-[30px] w-[30px]" />
+                    <Icon49 className="h-[30px] w-[30px] cursor-[pointer]" />
                   </div>
                   <p
                     className="h-[30px] w-[57px] mt-[-68.5px] text-[#6B7A99] leading-[30px] text-[22px] text-center"
@@ -528,7 +528,7 @@ export default function CMS1600(props: CMS1600Props) {
                     User Stat
                   </p>
                   <Tab className="h-[65px] ml-0" type="TAB_TYPE" />
-                  <Icon53 className="h-[30px] w-[30px] ml-0" />
+                  <Icon53 className="h-[30px] w-[30px] ml-0 cursor-[pointer]" />
                 </div>
                 <div
                   className="text-[#ADB8CC] pl-[30px] self-stretch flex-grow items-center justify-end flex-col flex mt-0 pr-10 pb-5 flex-1 w-full"
@@ -1210,7 +1210,7 @@ export default function CMS1600(props: CMS1600Props) {
                          />
                       </div>
                       <div className="items-start flex gap-2.5 pl-2.5">
-                        <p className="w-[129px] h-5 leading-5 text-xs">
+                        <p className="w-[129px] h-5 leading-5 text-xs ">
                           New User Alberta Colon
                         </p>
                       </div>

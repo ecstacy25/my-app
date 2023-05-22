@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Tab(props: TabProps) {
-  const [activeTab, setActiveTab] = useState(1); // State to store the active tab index
+  const [activeTab, setActiveTab] = useState(1); 
 
   const handleTabClick = (tabIndex: number) => {
     setActiveTab(tabIndex); // Update the active tab on click
@@ -27,9 +27,9 @@ export default function Tab(props: TabProps) {
         >
           <p
             className={`transition-all h-5 leading-5 text-xs ${
-              props.type === "TAB_TYPE" ? "w-[35px]" : ""
-            } ${props.type === "TAB_TYPE1" ? "w-6" : ""} ${
-              props.type === "TAB_TYPE2" ? "w-6" : ""
+              props.type === "TAB_TYPE" ? "w-[35px] cursor-[pointer]" : ""
+            } ${props.type === "TAB_TYPE1" ? "w-6 cursor-[pointer]" : ""} ${
+              props.type === "TAB_TYPE2" ? "w-6 cursor-[pointer]" : ""
             } ${
               activeTab === 1 ? "text-[#000000]" : "text-[#ADB8CC]"
             }`}
@@ -47,9 +47,9 @@ export default function Tab(props: TabProps) {
         >
           <p
             className={`transition-all h-5 leading-5 text-xs ${
-              props.type === "TAB_TYPE" ? "w-[45px]" : ""
-            } ${props.type === "TAB_TYPE1" ? "w-[33px]" : ""} ${
-              props.type === "TAB_TYPE2" ? "w-[33px]" : ""
+              props.type === "TAB_TYPE" ? "w-[45px] cursor-[pointer]" : ""
+            } ${props.type === "TAB_TYPE1" ? "w-[33px] cursor-[pointer]" : ""} ${
+              props.type === "TAB_TYPE2" ? "w-[33px] cursor-[pointer]" : ""
             } ${
               activeTab === 2 ? "text-[#000000]" : "text-[#ADB8CC]"
             }`}
@@ -72,7 +72,7 @@ export default function Tab(props: TabProps) {
               }`}
               onClick={() => handleTabClick(3)} // Handle click on tab 3
             >
-              <p className="w-[25px] h-5 leading-5 text-xs">{props.tab3}</p>
+              <p className="w-[25px] h-5 leading-5 text-xs cursor-[pointer]">{props.tab3}</p>
             </div>
           </div>
         )}

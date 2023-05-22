@@ -19,6 +19,7 @@ export default function Tooltip(props: TooltipProps) {
   };
 
   return (
+    // eslint-disable-next-line
     <a href="#" className="tooltip-link" onClick={handleClick}>
       <div className={tooltipClassName}>
         <div
